@@ -58,8 +58,8 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    /* loading img here causes bad ttfp - time to first paint (bad for Lighthouse SEO performance score) */
     background-image: url("images/digital-marketing-meeting.jpg");
-    /* I have left this image here because it improves the time to first paint */
     background-size: cover;
     background-position: center;
 }
