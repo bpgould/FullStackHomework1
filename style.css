@@ -3,6 +3,11 @@
     padding: 0;
     margin: 0;
 }
+/* declaring theme variables to reduce the change of color/style syntax errors. This makes sense
+but I could not get it to work reliably in the given time, leaving here as a TODO */
+:root{
+    --Mywhite:#ffffff;
+}
 
 body {
     background-color: #d9dcd6;
@@ -54,6 +59,7 @@ p {
     width: 100%;
     margin-bottom: 25px;
     background-image: url("images/digital-marketing-meeting.jpg");
+    /* I have left this image here because it improves the time to first paint */
     background-size: cover;
     background-position: center;
 }
